@@ -1,0 +1,112 @@
+{
+    "_readme": [
+        "This file locks the dependencies of your project to a known state",
+        "Read more about it at https://getcomposer.org/doc/01-basic-usage.md#installing-dependencies",
+        "This file is @generated automatically"
+    ],
+    "content-hash": "cb514903037d5ec4da6474dade075e7e",
+    "packages": [
+        {
+            "name": "shopexpress/apiclient",
+            "version": "2.0.1",
+            "source": {
+                "type": "git",
+                "url": "https://gitlab.com/difocus/api/apiclient.git",
+                "reference": "b6aae3c10613d2b2aac9193c1e798be89004d08f"
+            },
+            "dist": {
+                "type": "zip",
+                "url": "https://gitlab.com/api/v4/projects/difocus%2Fapi%2Fapiclient/repository/archive.zip?sha=b6aae3c10613d2b2aac9193c1e798be89004d08f",
+                "reference": "b6aae3c10613d2b2aac9193c1e798be89004d08f",
+                "shasum": ""
+            },
+            "require": {
+                "ext-curl": "*",
+                "ext-json": "*",
+                "ext-zlib": "*",
+                "php": ">=7.1.0"
+            },
+            "require-dev": {
+                "phpunit/phpunit": "^7"
+            },
+            "type": "library",
+            "extra": {
+                "branch-alias": {
+                    "dev-master": "2.0-dev"
+                }
+            },
+            "autoload": {
+                "psr-4": {
+                    "ShopExpress\\ApiClient\\": "src"
+                }
+            },
+            "notification-url": "https://packagist.org/downloads/",
+            "license": [
+                "MIT"
+            ],
+            "description": "ShopExpress API Client",
+            "homepage": "https://gitlab.com/difocus/api/apiclient",
+            "keywords": [
+                "ShopExpress",
+                "apiclient"
+            ],
+            "time": "2019-09-11T17:16:20+00:00"
+        },
+        {
+            "name": "shopexpress/request-response",
+            "version": "dev-master",
+            "source": {
+                "type": "git",
+                "url": "https://gitlab.com/difocus/api/request-response.git",
+                "reference": "6f1b6e3fa22b8edebe4ead4c8a9cdc536db07641"
+            },
+            "dist": {
+                "type": "zip",
+                "url": "https://gitlab.com/api/v4/projects/difocus%2Fapi%2Frequest-response/repository/archive.zip?sha=6f1b6e3fa22b8edebe4ead4c8a9cdc536db07641",
+                "reference": "6f1b6e3fa22b8edebe4ead4c8a9cdc536db07641",
+                "shasum": ""
+            },
+            "require": {
+                "ext-json": "*",
+                "ext-zlib": "*",
+                "php": ">=7.1.0"
+            },
+            "require-dev": {
+                "phpunit/phpunit": "^7"
+            },
+            "type": "library",
+            "extra": {
+                "branch-alias": {
+                    "dev-master": "1.0-dev"
+                }
+            },
+            "autoload": {
+                "psr-4": {
+                    "ShopExpress\\RequestResponse\\": "src"
+                }
+            },
+            "notification-url": "https://packagist.org/downloads/",
+            "license": [
+                "MIT"
+            ],
+            "description": "ShopExpress Request - Response",
+            "homepage": "https://gitlab.com/difocus/api/request-response",
+            "keywords": [
+                "ShopExpress",
+                "request",
+                "response"
+            ],
+            "time": "2020-05-29T13:59:09+00:00"
+        }
+    ],
+    "packages-dev": [],
+    "aliases": [],
+    "minimum-stability": "stable",
+    "stability-flags": {
+        "shopexpress/request-response": 20
+    },
+    "prefer-stable": false,
+    "prefer-lowest": false,
+    "platform": [],
+    "platform-dev": []
+}

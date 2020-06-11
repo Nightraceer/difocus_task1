@@ -1,0 +1,43 @@
+body {
+    font-family: sans-serif;
+}
+
+.orders-page {
+    margin: auto 100px;
+    padding: 50px 0;
+}
+
+.orders-page h1 {
+    font-size: 30px;
+    text-align: center;
+    margin-bottom: 20px;
+}
+
+.orders-page table {
+    width: 100%;
+}
+
+table tr td, table tr th {
+    text-align: left;
+    padding: 10px 15px;
+}
+
+table tr:nth-child(2n + 1) td {
+    background: #fffae9;
+}
+
+.paginate {
+    margin-top: 20px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.paginate a {
+    display: block;
+    padding: 10px 15px;
+    margin: 0 10px;
+    border-radius: 5px;
+    background: #edebfd;
+    text-decoration: none;
+}

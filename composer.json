@@ -1,0 +1,13 @@
+{
+    "name": "nightracer/task1",
+    "authors": [
+        {
+            "name": "nightracer",
+            "email": "nightraceer@yandex.ru"
+        }
+    ],
+    "require": {
+        "shopexpress/request-response": "dev-master",
+        "shopexpress/apiclient": "~2.0.1"
+    }
+}
